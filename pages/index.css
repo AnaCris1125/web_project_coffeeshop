@@ -106,6 +106,7 @@ nav {
   left: 80px;
   margin-bottom: 40px;
   width: 100%;
+  list-style: none;
 }
 
 .header__paragraph {
@@ -115,7 +116,6 @@ nav {
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  list-style: none;
   margin-top: auto;
 }
 
