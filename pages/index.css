@@ -15,7 +15,6 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  padding: 30px 80px 40px;
   background-image: url(/images/background_header.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -103,10 +102,10 @@ nav {
 .header__footer {
   display: flex;
   position: relative;
-  justify-content: space-between;
   margin-top: auto;
   left: 80px;
-  bottom: 40px;
+  margin-bottom: 40px;
+  width: 100%;
 }
 
 .header__paragraph {
@@ -117,13 +116,16 @@ nav {
   line-height: 20px;
   color: #838383;
   list-style: none;
+  margin-top: auto;
 }
 
 .header__address {
   display: flex;
   position: absolute;
+  margin-top: auto;
   right: 80px;
   bottom: 40px;
+  color: #838383;
 }
 
 .recipes {
