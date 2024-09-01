@@ -99,14 +99,12 @@ nav {
   right: 5px;
 }
 
-.header__footer {
+.header__timetable {
   display: flex;
-  position: relative;
-  margin-top: auto;
+  flex-direction: column;
+  position: absolute;
   left: 80px;
-  margin-bottom: 40px;
-  width: 100%;
-  list-style: none;
+  bottom: 40px;
 }
 
 .header__paragraph {
@@ -116,16 +114,14 @@ nav {
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  margin-top: auto;
+  margin: 0;
 }
 
 .header__address {
   display: flex;
   position: absolute;
-  margin-top: auto;
   right: 80px;
   bottom: 40px;
-  color: #838383;
 }
 
 .recipes {
