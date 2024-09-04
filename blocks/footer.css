@@ -35,6 +35,11 @@
 .footer__social-heading {
   display: flex;
   justify-content: flex-end;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
   margin-bottom: 20px;
   margin-right: 80px;
 }
@@ -55,6 +60,7 @@
 
 .footer__social-link {
   display: flex;
+  font-family: "Inter";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
