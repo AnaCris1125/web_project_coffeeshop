@@ -1,4 +1,4 @@
-reservation {
+.reservation {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,10 +20,6 @@ reservation {
   line-height: 52px;
   margin: 0 auto 80px auto;
   width: 100%;
-}
-
-.form {
-  border: 0;
 }
 
 .reservation__form {
