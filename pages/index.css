@@ -209,7 +209,7 @@ nav {
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 100px auto 80px auto;
+  margin: 0 auto 80px auto;
   width: 100%;
 }
 
@@ -232,6 +232,8 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 80px;
+  margin: auto;
   border: 0;
 }
 
