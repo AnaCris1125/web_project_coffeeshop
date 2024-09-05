@@ -52,11 +52,15 @@
 }
 
 .recipes__video-caption {
-  display: flex;
+  position: relative;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 215px;
+}
+
+.tiempo {
+  float: right;
 }
